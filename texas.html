@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <script src="scripts.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Texas is the best state!</title>
+</head>
+
+<body>
+    <section class="texas_stuff">
+        <h1>
+            <p><q>There’s a vastness here and I believe that the people who are born here breathe that vastness into their soul. They dream big dreams and think big thoughts, because there is nothing to hem them in.</q> - Conrad Hilton</p>
+        </h1>
+        <img src="texas_flag.jpg" alt="Texas Flag" width="500" height="325" class="center">
+        <div>
+        </div>
+    </section>
+
+</body>
+<form>
+    <div>
+        Please take a moment to fill out the following information so that we can find you a moving company.
+    </div>
+    <div>
+        <input type="text" name="" placeholder="First and Last name" />
+    </div>
+    <div>
+        <input type="email" placeholder="email address" />
+    </div>
+    <div>
+        <input type="text" placeholder="comments?" />
+    </div>
+    <div>
+        <input type="checkbox" name="real person" value="" /> are you a real person? Like for real real?
+    </div>
+    <div> Which state do you think is the best?
+        <select name="best state">
+            <option value="Texas">Texas</option>
+            <option value="Texas2">Texas</option>
+            <option value="Texas3">Texas</option>
+        </select>
+    </div>
+    <div> Which state do you wish you lived in?
+        <input type="radio" name="states" value="Texas" /> Texas
+        <input type="radio" name="states" value="Texas2" /> Tejas
+        <input type="radio" name="states" value="Texas3" /> The Lone Star State
+    </div>
+    <script>
+        const whenClicked = () => {
+            alert("thank you for submitting your information.")
+        }
+    </script>
+    <button onclick="whenClicked()" type="submit">Touch me</button>
+</form>
+
+</html>

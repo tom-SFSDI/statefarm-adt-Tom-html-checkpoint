@@ -1,0 +1,11 @@
+body {
+    background-color: #BF5700;
+    color: whitesmoke
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
