@@ -1,6 +1,15 @@
-div {
-    width: 200px;
-    height: 200px;
+body {
+    background-color: grey;
+}
+
+.red-text {
+    color: red;
+}
+
+.wow {
     background-color: blue;
-    color: whitesmoke
+}
+
+#BlueDiv {
+    color: gold
 }
